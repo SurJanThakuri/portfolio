@@ -1,6 +1,6 @@
 import type { MetadataRoute } from "next";
 
-const SITE_URL = "https://surjansinghthakuri.com.np";
+const SITE_URL = "https://www.surjansinghthakuri.com.np";
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const pages = [

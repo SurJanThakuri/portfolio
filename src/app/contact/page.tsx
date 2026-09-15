@@ -1,7 +1,7 @@
 import { ContactContent } from "@/components/contact/ContactContent";
 
 export const metadata = {
-  title: "Contact — Hire a Software Engineer in Kathmandu, Nepal",
+  title: "Contact — Hire a Software Engineer in Kathmandu Nepal | Freelance Developer",
   description:
     "Get in touch with Surjan Singh Thakuri, a Software Engineer in Kathmandu, Nepal. Available for full-time roles, freelance projects, and collaboration opportunities.",
   keywords: [

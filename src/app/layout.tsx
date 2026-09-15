@@ -23,14 +23,14 @@ const jetbrainsMono = JetBrains_Mono({
   preload: true,
 });
 
-const SITE_URL = "https://surjansinghthakuri.com.np";
+const SITE_URL = "https://www.surjansinghthakuri.com.np";
 const OG_IMAGE = `${SITE_URL}/og-image.png`;
 
 export const metadata: Metadata = {
   metadataBase: new URL(SITE_URL),
   title: {
-    default: "Surjan Singh Thakuri — Software Engineer in Kathmandu, Nepal | React & Next.js Developer",
-    template: "%s | Surjan Singh Thakuri",
+    default: "Surjan Singh Thakuri — Software Engineer in Kathmandu, Nepal | React, Next.js & TypeScript Developer",
+    template: "%s | Surjan Singh Thakuri — Software Engineer Nepal",
   },
   description:
     "Surjan Singh Thakuri is a Software Engineer in Kathmandu, Nepal with 3+ years of experience building web applications using React, Next.js, TypeScript, and Tailwind CSS. Available for hire.",

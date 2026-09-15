@@ -1,7 +1,7 @@
 import { SkillsContent } from "@/components/skills/SkillsContent";
 
 export const metadata = {
-  title: "Skills — React, Next.js, TypeScript Developer Nepal",
+  title: "Skills — React, Next.js, TypeScript Developer in Kathmandu Nepal",
   description:
     "Technical skills of Surjan Singh Thakuri, a Software Engineer in Kathmandu, Nepal. Proficient in React.js, Next.js, TypeScript, Tailwind CSS, Node.js, REST APIs, and modern frontend engineering.",
   keywords: [

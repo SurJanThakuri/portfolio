@@ -9,6 +9,6 @@ export default function robots(): MetadataRoute.Robots {
         disallow: ["/api/", "/admin/"],
       },
     ],
-    sitemap: "https://surjansinghthakuri.com.np/sitemap.xml",
+    sitemap: "https://www.surjansinghthakuri.com.np/sitemap.xml",
   };
 }

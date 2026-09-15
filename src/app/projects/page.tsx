@@ -1,7 +1,7 @@
 import { ProjectsContent } from "@/components/projects/ProjectsContent";
 
 export const metadata = {
-  title: "Projects — Web Applications Built in Nepal",
+  title: "Projects — Web Applications Built in Nepal | React & Next.js Portfolio",
   description:
     "Explore production-grade web applications built by Surjan Singh Thakuri, a Software Engineer in Kathmandu, Nepal. Case studies using React, Next.js, TypeScript, and modern frontend technologies.",
   keywords: [
