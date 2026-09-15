@@ -1,21 +1,13 @@
 import { ProjectsContent } from "@/components/projects/ProjectsContent";
 
 export const metadata = {
-  title: "Projects — Web Applications Built in Nepal | React & Next.js Portfolio",
+  title: "Projects | Software Engineer Nepal — React & Next.js Apps",
   description:
-    "Explore production-grade web applications built by Surjan Singh Thakuri, a Software Engineer in Kathmandu, Nepal. Case studies using React, Next.js, TypeScript, and modern frontend technologies.",
-  keywords: [
-    "React projects Nepal",
-    "Next.js projects Kathmandu",
-    "web application portfolio Nepal",
-    "frontend projects Kathmandu",
-    "e-commerce developer Nepal",
-    "CRM developer Nepal",
-  ],
+    "Production-grade web apps built by a Software Engineer in Kathmandu, Nepal. React, Next.js, TypeScript & Tailwind CSS projects.",
   openGraph: {
-    title: "Projects — Surjan Singh Thakuri | Software Engineer Nepal",
+    title: "Projects | Software Engineer Nepal",
     description:
-      "Explore production-grade web applications built by a Software Engineer in Kathmandu, Nepal.",
+      "Production-grade web apps built by a Software Engineer in Kathmandu, Nepal.",
   },
 };
 

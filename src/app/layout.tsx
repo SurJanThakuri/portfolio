@@ -29,11 +29,11 @@ const OG_IMAGE = `${SITE_URL}/og-image.png`;
 export const metadata: Metadata = {
   metadataBase: new URL(SITE_URL),
   title: {
-    default: "Surjan Singh Thakuri — Software Engineer in Kathmandu, Nepal | React, Next.js & TypeScript Developer",
-    template: "%s | Surjan Singh Thakuri — Software Engineer Nepal",
+    default: "Surjan Singh Thakuri | Software Engineer in Kathmandu, Nepal",
+    template: "%s | Surjan Singh Thakuri",
   },
   description:
-    "Surjan Singh Thakuri is a Software Engineer in Kathmandu, Nepal with 3+ years of experience building web applications using React, Next.js, TypeScript, and Tailwind CSS. Available for hire.",
+    "Software Engineer in Kathmandu, Nepal. 3+ years building web apps with React, Next.js, TypeScript & Tailwind CSS.",
   keywords: [
     "software engineer Nepal",
     "software engineer Kathmandu",
@@ -62,10 +62,10 @@ export const metadata: Metadata = {
     type: "website",
     locale: "en_US",
     url: SITE_URL,
-    siteName: "Surjan Singh Thakuri — Software Engineer",
-    title: "Surjan Singh Thakuri — Software Engineer in Kathmandu, Nepal | React & Next.js Developer",
+    siteName: "Surjan Singh Thakuri",
+    title: "Surjan Singh Thakuri | Software Engineer in Kathmandu, Nepal",
     description:
-      "Surjan Singh Thakuri is a Software Engineer in Kathmandu, Nepal with 3+ years building web applications using React, Next.js, TypeScript, and Tailwind CSS.",
+      "Software Engineer in Kathmandu, Nepal. 3+ years building web apps with React, Next.js, TypeScript & Tailwind CSS.",
     images: [
       {
         url: OG_IMAGE,
@@ -78,9 +78,9 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Surjan Singh Thakuri — Software Engineer in Kathmandu, Nepal",
+    title: "Surjan Singh Thakuri | Software Engineer in Kathmandu, Nepal",
     description:
-      "Software Engineer in Kathmandu, Nepal with 3+ years building web applications using React, Next.js, TypeScript, and Tailwind CSS.",
+      "Software Engineer in Kathmandu, Nepal. 3+ years building web apps with React, Next.js, TypeScript & Tailwind CSS.",
     images: [OG_IMAGE],
     creator: "@surjansingh",
   },
