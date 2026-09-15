@@ -4,6 +4,9 @@ export const metadata = {
   title: "Experience | Software Engineer Career in Kathmandu, Nepal",
   description:
     "3+ years as a Software Engineer in Kathmandu, Nepal. Built web apps across restaurant, e-commerce & CRM domains.",
+  alternates: {
+    canonical: "https://www.surjansinghthakuri.com.np/experience",
+  },
   openGraph: {
     title: "Experience | Software Engineer Nepal",
     description:

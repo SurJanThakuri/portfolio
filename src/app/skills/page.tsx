@@ -4,6 +4,9 @@ export const metadata = {
   title: "Skills | React, Next.js & TypeScript Developer Nepal",
   description:
     "Technical skills: React.js, Next.js, TypeScript, Tailwind CSS, Node.js & REST APIs. Software Engineer in Kathmandu, Nepal.",
+  alternates: {
+    canonical: "https://www.surjansinghthakuri.com.np/skills",
+  },
   openGraph: {
     title: "Skills | React & Next.js Developer Nepal",
     description:

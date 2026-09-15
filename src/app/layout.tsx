@@ -150,7 +150,6 @@ export default function RootLayout({
   return (
     <html lang="en" className={`${inter.variable} ${jetbrainsMono.variable}`} suppressHydrationWarning>
       <head>
-        <link rel="canonical" href={SITE_URL} />
         <meta name="theme-color" content="#0a0a12" />
         <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
         <meta name="google-site-verification" content="tBCZQ6PNipgT1EQiLZZV7bHkNTxKfQO9xi6TXLrf7SA" />
