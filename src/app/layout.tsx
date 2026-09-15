@@ -29,27 +29,30 @@ const OG_IMAGE = `${SITE_URL}/og-image.png`;
 export const metadata: Metadata = {
   metadataBase: new URL(SITE_URL),
   title: {
-    default: "Surjan Singh Thakuri — Software Engineer | React, Next.js, TypeScript",
+    default: "Surjan Singh Thakuri — Software Engineer in Kathmandu, Nepal | React & Next.js Developer",
     template: "%s | Surjan Singh Thakuri",
   },
   description:
-    "Software Engineer with 3+ years building production-grade web applications using React, Next.js, TypeScript, and Tailwind CSS. Based in Kathmandu, Nepal.",
+    "Surjan Singh Thakuri is a Software Engineer in Kathmandu, Nepal with 3+ years of experience building web applications using React, Next.js, TypeScript, and Tailwind CSS. Available for hire.",
   keywords: [
-    "Surjan Singh Thakuri",
     "software engineer Nepal",
-    "React developer Kathmandu",
-    "Next.js developer",
-    "TypeScript developer",
-    "frontend engineer Nepal",
+    "software engineer Kathmandu",
+    "web developer Nepal",
     "web developer Kathmandu",
-    "Tailwind CSS",
-    "full stack developer Nepal",
-    "JavaScript engineer",
-    "React.js portfolio",
-    "hire React developer",
+    "React developer Nepal",
+    "React developer Kathmandu",
+    "Next.js developer Nepal",
+    "Next.js developer Kathmandu",
+    "TypeScript developer Nepal",
+    "frontend developer Kathmandu",
+    "hire software engineer Nepal",
+    "hire web developer Kathmandu",
     "freelance web developer Nepal",
-    "SaaS developer",
-    "e-commerce developer",
+    "freelance React developer Kathmandu",
+    "Surjan Singh Thakuri",
+    "JavaScript engineer Nepal",
+    "SaaS developer Nepal",
+    "e-commerce developer Nepal",
   ],
   authors: [{ name: "Surjan Singh Thakuri", url: SITE_URL }],
   creator: "Surjan Singh Thakuri",
@@ -60,9 +63,9 @@ export const metadata: Metadata = {
     locale: "en_US",
     url: SITE_URL,
     siteName: "Surjan Singh Thakuri — Software Engineer",
-    title: "Surjan Singh Thakuri — Software Engineer | React, Next.js, TypeScript",
+    title: "Surjan Singh Thakuri — Software Engineer in Kathmandu, Nepal | React & Next.js Developer",
     description:
-      "Software Engineer with 3+ years building production-grade web applications using React, Next.js, TypeScript, and Tailwind CSS.",
+      "Surjan Singh Thakuri is a Software Engineer in Kathmandu, Nepal with 3+ years building web applications using React, Next.js, TypeScript, and Tailwind CSS.",
     images: [
       {
         url: OG_IMAGE,
@@ -75,9 +78,9 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Surjan Singh Thakuri — Software Engineer",
+    title: "Surjan Singh Thakuri — Software Engineer in Kathmandu, Nepal",
     description:
-      "Software Engineer with 3+ years building production-grade web applications using React, Next.js, TypeScript, and Tailwind CSS.",
+      "Software Engineer in Kathmandu, Nepal with 3+ years building web applications using React, Next.js, TypeScript, and Tailwind CSS.",
     images: [OG_IMAGE],
     creator: "@surjansingh",
   },
@@ -118,7 +121,13 @@ export default function RootLayout({
     address: {
       "@type": "PostalAddress",
       addressLocality: "Kathmandu",
+      addressRegion: "Bagmati",
       addressCountry: "NP",
+    },
+    geo: {
+      "@type": "GeoCoordinates",
+      latitude: 27.7172,
+      longitude: 85.324,
     },
     sameAs: [
       "https://www.linkedin.com/in/surjan-singh-thakuri/",
@@ -135,7 +144,7 @@ export default function RootLayout({
       "Full Stack Development",
     ],
     description:
-      "Software Engineer with 3+ years of experience building production-grade web applications across restaurant, e-commerce, and CRM domains.",
+      "Surjan Singh Thakuri is a Software Engineer in Kathmandu, Nepal with 3+ years of experience building production-grade web applications across restaurant, e-commerce, and CRM domains.",
   };
 
   return (

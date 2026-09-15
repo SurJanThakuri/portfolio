@@ -1,22 +1,20 @@
 import { SkillsContent } from "@/components/skills/SkillsContent";
 
 export const metadata = {
-  title: "Skills & Architecture",
+  title: "Skills — React, Next.js, TypeScript Developer Nepal",
   description:
-    "Technical skills and architecture capabilities. Proficient in React.js, Next.js, TypeScript, Tailwind CSS, Node.js, REST APIs, and modern frontend engineering practices.",
+    "Technical skills of Surjan Singh Thakuri, a Software Engineer in Kathmandu, Nepal. Proficient in React.js, Next.js, TypeScript, Tailwind CSS, Node.js, REST APIs, and modern frontend engineering.",
   keywords: [
-    "React skills",
-    "Next.js skills",
-    "TypeScript proficiency",
-    "frontend architecture",
-    "Tailwind CSS",
-    "web development skills",
-    "technical capabilities",
+    "React skills Nepal",
+    "Next.js skills Kathmandu",
+    "TypeScript proficiency Nepal",
+    "frontend architecture Kathmandu",
+    "web development skills Nepal",
   ],
   openGraph: {
-    title: "Skills & Architecture — Surjan Singh Thakuri",
+    title: "Skills — Surjan Singh Thakuri | Software Engineer Nepal",
     description:
-      "Technical skills and architecture capabilities in React, Next.js, TypeScript, and more.",
+      "Technical skills in React, Next.js, TypeScript, and modern frontend engineering.",
   },
 };
 

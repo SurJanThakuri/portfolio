@@ -1,21 +1,19 @@
 import { ExperienceContent } from "@/components/experience/ExperienceContent";
 
 export const metadata = {
-  title: "Experience",
+  title: "Experience — Software Engineer Career in Nepal",
   description:
-    "Professional experience as a Software Engineer. 3+ years building web applications across restaurant, e-commerce, and CRM domains with measurable impact.",
+    "Professional experience of Surjan Singh Thakuri, a Software Engineer in Kathmandu, Nepal. 3+ years building web applications across restaurant, e-commerce, and CRM domains with measurable impact.",
   keywords: [
-    "software engineer experience",
-    "frontend developer resume",
-    "web developer career",
-    "React developer experience",
-    "Next.js developer portfolio",
-    "Kathmandu software engineer",
+    "software engineer experience Nepal",
+    "frontend developer career Kathmandu",
+    "web developer experience Nepal",
+    "React developer work history",
   ],
   openGraph: {
-    title: "Experience — Surjan Singh Thakuri",
+    title: "Experience — Surjan Singh Thakuri | Software Engineer Nepal",
     description:
-      "Professional experience as a Software Engineer. 3+ years building web applications across multiple domains.",
+      "Professional experience of a Software Engineer in Kathmandu, Nepal. 3+ years building web applications.",
   },
 };
 

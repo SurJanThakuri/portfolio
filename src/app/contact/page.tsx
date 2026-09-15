@@ -1,20 +1,20 @@
 import { ContactContent } from "@/components/contact/ContactContent";
 
 export const metadata = {
-  title: "Contact",
+  title: "Contact — Hire a Software Engineer in Kathmandu, Nepal",
   description:
-    "Get in touch with Surjan Singh Thakuri for software engineering roles, freelance projects, and collaboration opportunities. Based in Kathmandu, Nepal.",
+    "Get in touch with Surjan Singh Thakuri, a Software Engineer in Kathmandu, Nepal. Available for full-time roles, freelance projects, and collaboration opportunities.",
   keywords: [
-    "contact software engineer",
-    "hire React developer",
-    "freelance web developer Nepal",
-    "software engineer Kathmandu",
-    "frontend developer contact",
+    "hire software engineer Nepal",
+    "hire web developer Kathmandu",
+    "freelance React developer Nepal",
+    "contact software engineer Kathmandu",
+    "frontend developer for hire Nepal",
   ],
   openGraph: {
-    title: "Contact — Surjan Singh Thakuri",
+    title: "Contact — Hire a Software Engineer in Kathmandu, Nepal",
     description:
-      "Get in touch for software engineering roles, freelance projects, and collaboration opportunities.",
+      "Get in touch with a Software Engineer in Kathmandu, Nepal for roles and projects.",
   },
 };
 

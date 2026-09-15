@@ -3,11 +3,17 @@ import { HomeContent } from "@/components/home/HomeContent";
 export const metadata = {
   title: "Home",
   description:
-    "Software Engineer with 3+ years of experience building production-grade web applications using React, Next.js, TypeScript, and Tailwind CSS. Based in Kathmandu, Nepal.",
+    "Surjan Singh Thakuri is a Software Engineer in Kathmandu, Nepal with 3+ years of experience building production-grade web applications using React, Next.js, TypeScript, and Tailwind CSS.",
+  keywords: [
+    "software engineer Kathmandu",
+    "web developer Nepal",
+    "React developer Kathmandu",
+    "hire software engineer Nepal",
+  ],
   openGraph: {
-    title: "Surjan Singh Thakuri — Software Engineer",
+    title: "Surjan Singh Thakuri — Software Engineer in Kathmandu, Nepal",
     description:
-      "Software Engineer with 3+ years building production-grade web applications using React, Next.js, TypeScript, and Tailwind CSS.",
+      "Software Engineer in Kathmandu, Nepal with 3+ years building web applications using React, Next.js, TypeScript, and Tailwind CSS.",
   },
 };
 
