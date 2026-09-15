@@ -71,7 +71,7 @@ export function Header() {
             <button
               onClick={toggleTheme}
               className="ml-2 p-1.5 rounded-sm transition-colors border border-transparent"
-              style={{ color: isDark ? "#5a5a72" : "#868e96" }}
+              style={{ color: isDark ? "#8a8aa2" : "#868e96" }}
               aria-label="Toggle theme"
             >
               {isDark ? <Sun size={14} strokeWidth={1.5} /> : <Moon size={14} strokeWidth={1.5} />}
@@ -83,7 +83,7 @@ export function Header() {
             <button
               onClick={toggleTheme}
               className="p-1.5 rounded-sm transition-colors border border-transparent"
-              style={{ color: isDark ? "#5a5a72" : "#868e96" }}
+              style={{ color: isDark ? "#8a8aa2" : "#868e96" }}
               aria-label="Toggle theme"
             >
               {isDark ? <Sun size={14} strokeWidth={1.5} /> : <Moon size={14} strokeWidth={1.5} />}
@@ -91,7 +91,7 @@ export function Header() {
             <button
               onClick={() => setMobileOpen(!mobileOpen)}
               className="p-1.5 rounded-sm transition-colors"
-              style={{ color: isDark ? "#9090a4" : "#495057" }}
+              style={{ color: isDark ? "#b0b0c4" : "#495057" }}
               aria-label="Toggle menu"
             >
               {mobileOpen ? <X size={18} /> : <Menu size={18} />}
@@ -119,8 +119,8 @@ export function Header() {
               transition={{ type: "spring", damping: 25, stiffness: 300 }}
               className="absolute right-0 top-0 bottom-0 w-[260px] border-l p-6 pt-20"
               style={{
-                backgroundColor: isDark ? "#08080d" : "#ffffff",
-                borderColor: isDark ? "#1a1a28" : "#e9ecef",
+                backgroundColor: isDark ? "#0a0a12" : "#ffffff",
+                borderColor: isDark ? "#2a2a3a" : "#e9ecef",
               }}
               onClick={(e) => e.stopPropagation()}
             >
@@ -135,7 +135,7 @@ export function Header() {
                       className="px-4 py-3 text-[13px] rounded-sm transition-all font-mono border"
                       style={{
                         backgroundColor: isActive ? "rgba(108,92,231,0.15)" : "transparent",
-                        color: isActive ? "#6c5ce7" : isDark ? "#9090a4" : "#495057",
+                    color: isActive ? "#6c5ce7" : isDark ? "#b0b0c4" : "#495057",
                         borderColor: isActive ? "rgba(108,92,231,0.3)" : "transparent",
                       }}
                     >

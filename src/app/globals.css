@@ -3,17 +3,17 @@
 @custom-variant dark (&:where(.dark, .dark *));
 
 @theme {
-  --color-bg-primary: #08080d;
-  --color-bg-secondary: #0d0d14;
-  --color-bg-card: #101018;
-  --color-bg-card-hover: #15151f;
-  --color-bg-elevated: #1a1a25;
-  --color-border-primary: #1a1a28;
-  --color-border-secondary: #252538;
-  --color-border-accent: #35354d;
-  --color-text-primary: #e5e5ec;
-  --color-text-secondary: #9090a4;
-  --color-text-muted: #5a5a72;
+  --color-bg-primary: #0a0a12;
+  --color-bg-secondary: #13131d;
+  --color-bg-card: #1a1a26;
+  --color-bg-card-hover: #222230;
+  --color-bg-elevated: #22222f;
+  --color-border-primary: #2a2a3a;
+  --color-border-secondary: #3a3a4f;
+  --color-border-accent: #4a4a65;
+  --color-text-primary: #ededf0;
+  --color-text-secondary: #a8a8bc;
+  --color-text-muted: #72728a;
   --color-accent: #6c5ce7;
   --color-accent-hover: #7d6ff0;
   --color-green: #22c55e;
@@ -182,9 +182,9 @@ body.light {
   padding: 3px 8px;
   font-size: 0.625rem;
   letter-spacing: 0.06em;
-  border: 1px solid var(--border-secondary, #252538);
+  border: 1px solid var(--border-secondary, #3a3a4f);
   border-radius: 2px;
-  color: var(--text-secondary, #9090a4);
+  color: var(--text-secondary, #a8a8bc);
   background: transparent;
   white-space: nowrap;
 }
@@ -202,12 +202,12 @@ body.light {
 /* Card hover effect */
 .card-hover {
   transition: all 0.2s ease;
-  border: 1px solid var(--border-primary, #1a1a28);
+  border: 1px solid var(--border-primary, #2a2a3a);
 }
 
 .card-hover:hover {
-  border-color: var(--border-secondary, #252538);
-  background-color: var(--bg-card-hover, #15151f);
+  border-color: var(--border-secondary, #3a3a4f);
+  background-color: var(--bg-card-hover, #1c1c28);
 }
 
 /* Section label */
