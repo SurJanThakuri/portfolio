@@ -20,13 +20,13 @@ export function Footer() {
         backgroundColor: isDark ? "#08080d" : "#ffffff",
       }}
     >
-      <div className="mx-auto max-w-[1400px] px-6 lg:px-10 h-[52px] flex flex-col sm:flex-row items-center justify-between gap-2">
+      <div className="mx-auto max-w-[1400px] px-4 sm:px-6 lg:px-10 py-4 sm:h-[52px] flex flex-col sm:flex-row items-center justify-between gap-2">
         <p
-          className="text-[10px] font-mono tracking-wide"
+          className="text-[10px] font-mono tracking-wide text-center sm:text-left"
           style={{ color: isDark ? "#5a5a72" : "#868e96" }}
         >
           &copy; 2026 Surjan Singh Thakuri &middot; Software Engineer &middot;
-          Kathmandu, Nepal [27.7172&deg; N, 85.3240&deg; E]
+          Kathmandu, Nepal
         </p>
         <div className="flex items-center gap-4">
           {socialLinks.map((link) => (
